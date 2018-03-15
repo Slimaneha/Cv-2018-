@@ -1,0 +1,834 @@
+/*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+ #wbcomp{
+     display: none;
+ }
+  
+   .fa-star{
+        color: gold;
+    }
+
+    .valeur h1 , .valeur h2 {
+        border-bottom: solid 1px white;
+    }
+
+   #wbMotiv{
+    display: none;
+   }
+
+   #wbPro{
+    display: flex;
+}
+   
+
+
+   #motivationTl{
+       display: none;
+   }
+ 
+ #tl50 {
+     width: 50%;
+     background-color: white;
+ }
+ 
+   #compTl{
+       display: none;   
+   }
+   
+   
+   
+   /* Choix couleu cadégorie  */
+
+    .blanc{
+        margin-top: 1em;
+        color: black;
+    }
+
+ 
+
+
+
+
+   .flexDeu{
+       display: flex; 
+       justify-content: center; 
+       
+   }
+
+
+   
+
+   .cartpr{
+       width: 10% !important ;
+       border-radius: 20%;
+   }
+#lettre-form
+{
+    background-image: url(../img/papier3.jpg);
+    color: black;
+    font-family: 'Saira Condensed', sans-serif;
+
+}
+
+#ras {
+    width: 60%;
+    text-align: center;
+}
+
+#lettre-form label {
+
+    font-size: 20px;    
+
+}
+
+#lettre-form .btn {
+    width: 50% !important;
+}
+
+
+   /*focntion cache*/
+
+body{
+    background-image: url(../img/papier.jpg);
+    text-align: center;
+}
+
+   /* Nouvelle pages d'entré */
+   .custom-select {
+       width: 40%;
+   }
+
+
+   /* Fin de nouvelle pages */
+
+   #lettre-form{
+       display: block;  
+   }
+   
+    #adresses , #objets , #merci , #attentions, #ras{
+        display: none; 
+    }
+
+    #ras {
+        font-size: 20px; 
+        margin-top: 5em; 
+    }
+
+    .flexDeux{
+        display: flex; 
+        justify-content:center; 
+        flex-wrap: nowrap;
+    }
+    .flex{
+        display: flex; 
+        justify-content: center;
+        position: relative;
+    }
+
+    #papier{
+        background: no-repeat;
+        background-image: url(../img/papier.jpg);
+
+    }
+
+
+   .taille-lettre{
+       font-size: 6px;  
+       width: 80%; 
+   }
+   .m-d-2{
+       margin-right: 5em; 
+       margin-top: 1em;
+   }
+   .pa-tl{
+    font-family: 'Roboto Condensed', sans-serif;
+   }
+   .par-size {
+       width: 90%; 
+   }
+  /* .parcourt-border {
+       border-bottom: solid black 1px ;     
+   }*/
+
+   .m-l-1{
+       margin-top: 3em; 
+
+   }
+   .m-l-2{
+       margin-top: 2em; 
+   }
+
+   .contact-1{
+       width: 25%;
+       margin-top: 5em;
+   }
+  
+
+   .contact{
+       display: flex; 
+        justify-content: center; 
+   }
+   
+#off-1   {
+    margin-bottom: 3em;
+    display: none; 
+
+}
+#off-2{
+    display: none; 
+    margin-bottom: 3em;
+
+
+}
+#off-3{
+    display: none; 
+    margin-bottom: 3em;
+
+
+}
+#off-4{
+    display: none; 
+    margin-bottom: 3em;
+
+
+}
+.valeur {
+    font-family: 'Playfair Display SC', serif;;
+    ;
+
+}
+
+#select {
+    display: block
+}
+
+#start-3{
+    background-image: url(../img/manutention.jpg); 
+    color: rgb(96, 90, 90); 
+}
+
+#one {
+    font-family: 'Kavivanar', cursive;
+    margin-top: 1em;   
+}
+
+ul {
+    list-style: none;   
+}
+
+
+
+
+   /* Start of rules basse */
+   .nav-police {
+    font-family: 'Roboto Condensed', sans-serif;
+
+   }
+
+   .navbar-dark .bg-dark {
+       background-color: black !important; 
+   }
+#icon {
+    color: white; 
+}
+   .centre {
+       text-align: center; 
+   }
+
+   .titres{
+        font-family: 'Macondo', cursive;
+       font-size: 35px; 
+       margin-top:4em; 
+       border-top: 1px black solid ;
+       border-bottom: 1px black solid ;
+
+   }
+
+   #start{
+       background-image: url(../img/code.jpg);
+       color: #ccc; 
+   }
+
+   #start-2 {
+       margin-top: 0px !important; 
+       background-image: url(../img/teleconseil.jpg);
+       background-repeat: no-repeat; 
+       
+     
+   }
+   #start-2 p {
+       color:  white; 
+   }
+   
+   #start-2 h1 {
+        margin-right: 2em;  
+       color:white; 
+
+   }
+  
+   .modal {
+       text-align: center; 
+       
+   }
+
+   .modal ul  {
+       list-style: none; 
+   }
+
+   .marge-1 {
+
+    margin-top: 2em ; 
+    
+    }
+
+    .marge-2 {
+
+        margin-bottom: 2em ; 
+    
+       }
+
+     
+
+       
+       .marge-3 {
+
+        margin-left: 2em ; 
+    
+       }
+       .marge-4 {
+
+        margin-right: 2em ; 
+    
+       }
+
+      *{
+          margin: 0;
+      }
+
+      #bioUn {
+          margin-top: 3em;
+          width: 80% !important;
+          text-align: center; 
+      }
+
+      #bioUn img {
+          border-radius: 100%;
+      }
+
+      #footer{
+         position: fixed; 
+         margin-bottom: 0px !important; 
+         flex-wrap: wrap;
+        } 
+
+       
+
+        .footer-color{
+            color: white; 
+        }
+
+        .rss{
+            display: flex; 
+            flex-wrap: nowrap; 
+            list-style: none; 
+         
+        }
+        .rss li {
+            margin-left: 5px; 
+            font-size: 20px;    
+        }
+
+        .rss a {
+            color: white;
+        } 
+        .color {
+            color: white; 
+        }
+        .btn-outline-dark{
+            width: 50% !important; 
+            animation: button 3s  ; 
+            transform: 5s;
+            
+        }
+        @keyframes button {
+            1% {margin-left: 1000px }
+            5% {margin-left: 950px }
+            10% {margin-left:900px}
+            15% {margin-left:850px}
+            20% {margin-left:800px}
+            25% {margin-left:750px}
+            30% {margin-left:700px}
+            35% {margin-left:650px}
+            40% {margin-left:600px}
+            45% {margin-left:550px}
+            50% {margin-left:500px }
+            55% {margin-left:450px}
+            60% {margin-left:400px}
+            65% {margin-left:350px}
+            70% {margin-left:300px}
+            75% {margin-left:250px}
+            80% {margin-left:200px}
+            85% {margin-left:150px}
+            90% {margin-left:100px}
+            95% {margin-left:50px}
+            100%{margin-left: 0px ; }
+        }
+
+
+        .btn {
+            width: 100% !important ; 
+        }
+
+        .dispo {
+            color: green; 
+        }
+        .modal-title img {
+
+            margin-left: 4em ; 
+            
+        }
+        .Attention {
+            text-align: center; 
+            font-size: 10px ; 
+            color: orangered;
+            background-color: white; 
+        }
+
+        .nom-tl {
+            color:white !important;   
+            font-family: 'Arvo', serif;
+          margin-bottom: 2em;
+          margin-right: 2em;
+        }
+
+        .arc-tl{
+            color: rgb(65, 65, 65) !important; 
+        }
+
+
+       /* Rélges Mis en pages Partie Téléconseiller !! */
+
+       #card-tl {
+           width: 100%; 
+       }
+       
+       .deux {
+           font-family: 'Kavivanar', cursive;
+           border-bottom: 1px black solid; 
+       }
+       
+
+       #contact     {
+           text-align: center ;    
+             width:30% !important;
+             margin-bottom: 2em ;  
+               }
+               .marg {
+                   margin-top: 1em;     
+                   margin-bottom: 2em; 
+               }
+
+      .teste{
+          color: #000 !important; 
+          font-family: 'Arvo', serif;
+          margin-top: 1em;
+      }
+      
+
+    #one    {
+        animation-name: affiche ; 
+        animation-duration: 1s ;
+        transition: 1s; 
+         
+    }
+
+    .card{
+        margin-top: 1em;
+        margin-left: 1em;
+    }
+
+
+    @keyframes affiche 
+    {
+        0%{
+            opacity: 0.1;
+        }
+        10%{ 
+            opacity: 0.2;
+        } 
+
+        20%{ 
+            opacity: 0.3;
+        } 
+
+        30%{
+            opacity: 0.4;
+        }
+        35%{
+            opacity: 0.5;
+        }
+        40%{ 
+            opacity: 0.6;
+        } 
+        60%{ 
+            opacity: 0.8;
+        } 
+        90%{
+            opacity: 0.9;
+        }
+        100%{ 
+            opacity: 1;
+        } 
+
+
+        100%{opacity:2}
+    }
+
+
+
+       /* start of Rules css pages index.html */
+
+
+       .jumbotron-fluid {
+                background-color: #1d1e2f; 
+                color: white; 
+                border: solid 2px black;
+            font-family: 'Roboto Condensed', sans-serif;       }
+
+       .fixed-bottom{
+        display: block;
+        height: 10% !important;
+    }
+  
+
+       @media (min-width: 800px) {
+
+        .nav-link a:hover{
+            font-size: 20px; 
+            transition: 2s; 
+
+        }
+
+      
+
+        #motivTl{
+            width: 80%; 
+            margin-left:6em;
+           
+            text-align: center;
+        }
+
+        .taille-lettre{
+            font-size: 15px; 
+        }
+      
+        .card {
+          
+            text-align: center;
+            width: 40%; 
+            margin: 1em 1em 1em 1em ;
+            animation-name: cart; 
+            animation-duration: 2s ; 
+            transition: 2s; 
+         }
+         
+         @keyframes  cart {
+
+            0% { margin: 0 0 0 0 }
+            100% {margin: 1em 1em 1em 1em }
+
+         }
+
+         .menu{
+             display: flex; 
+             flex-wrap: wrap;
+             justify-content: center; 
+         }
+
+ /*Pages Téléconseiller media 800px */
+
+         .listetlpr{
+             display: flex; 
+             margin-top: 2em; 
+         }
+         .liste-tl1{
+            
+             margin-right: 1em ;    
+         
+            }
+       
+
+        
+
+       }
+
+      
+
+
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after,
+    *:first-letter,
+    *:first-line {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
